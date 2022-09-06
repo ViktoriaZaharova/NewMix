@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>NewMix</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:image" content="path/to/image.jpg">
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#000">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#000">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/slick.css"/>
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+  />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 d-flex flex-wrap align-items-center">
+        <a href="index.html" class="logo"><img src="img/logo.svg" alt=""></a>
+
+        <nav class="navbar">
+
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                 aria-expanded="false">
+                О компании
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item go_to" href="#about">О нас</a></li>
+                <li><a class="dropdown-item" href="question.html">Вопрос-ответ</a></li>
+                <li><a class="dropdown-item" href="documents.html">Документы</a></li>
+                <li><a class="dropdown-item" href="career.html">Карьера</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                 aria-expanded="false">
+                Каталог
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Фасадные системы</a></li>
+                <li><a class="dropdown-item" href="#">Плиточный клей</a></li>
+                <li><a class="dropdown-item" href="#">Шпаклевка</a></li>
+                <li><a class="dropdown-item" href="#">Штукатурка</a></li>
+                <li><a class="dropdown-item" href="#">Гидроизоляция</a></li>
+                <li><a class="dropdown-item" href="#">Напольные смеси</a></li>
+                <li><a class="dropdown-item" href="#">Декоративная штукатурка</a></li>
+                <li><a class="dropdown-item" href="#">Монтажные смеси</a></li>
+                <li><a class="dropdown-item" href="#">Ремонтный состав</a></li>
+                <li><a class="dropdown-item" href="#">Цементно-песчаные смеси</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Где купить</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacts.html">Контакты</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Стать дилером</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="#" class="btn-search"><img src="img/search.png" alt=""></a>
+
+        <a href="mailto:info@new-mix.ru" class="mail">info@new-mix.ru</a>
+
+        <div class="header-contacts">
+          <a href="tel:+78005511750" class="phone">8 800 55 11 750</a>
+          <p class="color-accent">Звонок по России бесплатный</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="home">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-8">
+        <div class="home-content">
+          <h1>СУХИЕ СТРОИТЕЛЬНЫЕ СМЕСИ</h1>
+          <div class="subtitle">ОТ ПРОИЗВОДИТЕЛЯ</div>
+          <div class="box-text">
+            <p>Широкий спектр строительных материалов для комфортного ремонта и стройки</p>
+          </div>
+          <div class="home-content__footer">
+            <a href="https://www.youtube.com/embed/njX2bu-_Vw4" class="btn-play" data-fancybox="video">
+              <span class="btn-play__icon"><svg class="svg-icon"><use
+                  xlink:href="img/sprite.svg#play"></use></svg></span>
+              <span class="btn-play__text">Посмотреть видео о нас</span>
+            </a>
+
+            <a href="#" class="btn btn-border btn-download" download="#" target="_blank">
+              <span class="btn-text">скачать полный каталог продукции</span>
+              <span class="btn-icon"><svg class="svg-icon"><use xlink:href="img/sprite.svg#download"></use></svg></span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <div class="category-list">
+          <a href="#" class="category-list-item">
+            <span class="category-list-item__icon"><img src="img/category-icon1.svg" alt=""></span>
+            <span class="category-list-item__text">Плиточный клей</span>
+          </a>
+          <a href="#" class="category-list-item">
+            <span class="category-list-item__icon"><img src="img/category-icon2.svg" alt=""></span>
+            <span class="category-list-item__text">Шпаклевка</span>
+          </a>
+          <a href="#" class="category-list-item">
+            <span class="category-list-item__icon"><img src="img/category-icon3.svg" alt=""></span>
+            <span class="category-list-item__text">Штукатурка</span>
+          </a>
+          <a href="#" class="category-list-item">
+            <span class="category-list-item__icon"><img src="img/category-icon4.svg" alt=""></span>
+            <span class="category-list-item__text">Гидроизоляция</span>
+          </a>
+          <a href="#" class="category-list-item">
+            <span class="category-list-item__icon"><img src="img/category-icon5.svg" alt=""></span>
+            <span class="category-list-item__text">Наполные <br>смеси</span>
+          </a>
+          <a href="#" class="category-list-item">
+            <span class="category-list-item__icon"><img src="img/category-icon6.svg" alt=""></span>
+            <span class="category-list-item__text">Декоративная штукатурка</span>
+          </a>
+          <a href="#" class="category-list-item">
+            <span class="category-list-item__icon"><img src="img/category-icon7.svg" alt=""></span>
+            <span class="category-list-item__text">Песчано-цементные <br>смеси</span>
+          </a>
+          <a href="#" class="category-list-item">
+            <span class="category-list-item__icon"><img src="img/category-icon8.svg" alt=""></span>
+            <span class="category-list-item__text">Ремонтный состав</span>
+          </a>
+          <a href="#" class="category-list-item">
+            <span class="category-list-item__icon"><img src="img/category-icon9.svg" alt=""></span>
+            <span class="category-list-item__text">Монтажные смеси</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <a href="#" class="btn btn-border btn-system">
+          <span class="btn-icon"><svg class="svg-icon"><use
+              xlink:href="img/sprite.svg#category-icon10"></use></svg></span>
+          <span class="btn-text">Системы утепления</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-5">
+        <div class="about-title">
+          <h2>New MIX - завод по производству модифицированных строительных смесей.</h2>
+        </div>
+      </div>
+      <div class="col-12 col-lg-7">
+        <div class="about-content">
+          <div class="box-text">
+            <p>Компания New MIX производит и поставляет материалы для строительства, которые делают процесс покупки
+              простым и выгодным, работу – легкой и эффективной, а результат - надежным и долговечным. Это предприятие
+              нового поколения с мощнейшим, максимально автоматизированным оборудованием, разработанным лидерами
+              отрасли.</p>
+
+            <p>Развивается на рынке строительно-отделочных материалов с 2019 года. Вся продукция проходит всю
+              необходимую
+              сертификацию и соответствует принятым ГОСТ-ам. Основная специализация: производство строительно-отделочных
+              материалов на цементной и гипсовой основе.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="helper">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-7">
+        <div class="helper-title">
+          <h2 class="title">Мы помогаем</h2>
+          <div class="subtitle">делать ваши ремонт и стройку проще, быстрее и качественнее:</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="helper-box helper-box1">
+          <p><strong>Потому что</strong> у нас ЗАРЯЖЕННАЯ КОМАНДА квалифицированных специалистов и мы ценим надежное
+            партнерство</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="helper-box helper-box2">
+          <p><strong>Потому что</strong> разработали НОВЫЕ РЕЦЕПТУРЫ сухих строительных смесей для лучшего результата
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="helper-box helper-box3">
+          <p><strong>Потому что</strong> мы сами ЗНАЕМ ТОЛК В ЭФФЕКТНОЙ ОТДЕЛКЕ и постоянно развиваемся</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="advantages">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="advantages-box">
+          <div class="advantages-box__number">7</div>
+          <h3>гектаров</h3>
+          <div class="box-text">
+            <p>Общая площадь завода </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="advantages-box">
+          <div class="advantages-box__number">7000</div>
+          <h3>квадратных метров</h3>
+          <div class="box-text">
+            <p>Площадь складских <br>помещений </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="advantages-box">
+          <div class="advantages-box__number">185 000</div>
+          <h3>тонн</h3>
+          <div class="box-text">
+            <p>сухих смесей в год</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="advantages-box">
+          <div class="advantages-box__number">1500</div>
+          <h3>мешков в час</h3>
+          <div class="box-text">
+            <p>Линия упаковывания</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="advantages-box">
+          <div class="advantages-box__number">150</div>
+          <h3>единиц</h3>
+          <div class="box-text">
+            <p>для поставки продукции</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="region-box">
+          <div class="region-box__val">25</div>
+          <div class="region-box__text">регионов присутствия</div>
+        </div>
+      </div>
+
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="advantages-box">
+          <h4>более</h4>
+          <div class="advantages-box-wrap">
+            <div class="advantages-box__number">200</div>
+            <h3>торговых точек </h3>
+          </div>
+          <div class="box-text">
+            <p>реализации продукции</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="worth">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2>наши основные ценности</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-sm-6 mb-20">
+        <div class="worth-box">
+          <div class="worth-box-head">
+            <div class="worth-box-head__icon"><img src="img/worth-icon1.svg" alt=""></div>
+            <h3>Удовлетворенность клиентов качеством нашей продукции</h3>
+          </div>
+
+          <div class="worth-box-body">
+            <div class="box-text">
+              <p>непрерывное развитие технологий и модернизация производства, которое ведет к постоянному
+                совершенствованию продукции для предложения системного решения для ремонта и строительства и, как
+                следствие, удовлетворения всех потребностей покупателей</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 mb-20">
+        <div class="worth-box">
+          <div class="worth-box-head">
+            <div class="worth-box-head__icon"><img src="img/worth-icon2.svg" alt=""></div>
+            <h3>Постоянное развитие</h3>
+          </div>
+
+          <div class="worth-box-body">
+            <div class="box-text">
+              <p>Мы заинтересованы в том, чтобы разрабатывать и выводить на рынок новые виды продукции и работать с
+                большим количеством регионов России, учитывая потребности и менталитет каждого из них.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 mb-20">
+        <div class="worth-box">
+          <div class="worth-box-head">
+            <div class="worth-box-head__icon"><img src="img/worth-icon3.svg" alt=""></div>
+            <h3>Высококвалифицированные <br>профессионалы</h3>
+          </div>
+
+          <div class="worth-box-body">
+            <div class="box-text">
+              <p>мы выстраиваем систему образования команды таким образом, чтобы каждый ее участник из более 100
+                сотрудников предприятия был нацелен на результат. Центр принятия решения - офис продаж, находится в
+                городе Пенза</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 mb-20">
+        <div class="worth-box">
+          <div class="worth-box-head">
+            <div class="worth-box-head__icon"><img src="img/worth-icon4.svg" alt=""></div>
+            <h3>Здоровый <br>мир</h3>
+          </div>
+
+          <div class="worth-box-body">
+            <div class="box-text">
+              <p>мы производим экологически чистые продукты. При этом само производство также безопасно для среды и
+                сотрудников, постоянно стремимся к повышению энергоэффективности производства. Пропагандируем активный
+                образ жизни и оказываем социальную и благотворительную помощь на территории региона</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slogan">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 d-flex align-items-stretch flex-wrap">
+        <h2 class="title">new mix</h2>
+
+        <div class="subtitle">яркая сторона ремонта</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="">
+  <div class="container">
+
+  </div>
+</section>
+
+<section class="">
+  <div class="container">
+
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+
+  </div>
+</footer>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+
+</html>

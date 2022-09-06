@@ -1,0 +1,97 @@
+/*==========  section header ==========*/
+header .mail {
+  position: relative;
+  z-index: 1;
+  padding: 34px 31px 20px 43px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold; }
+  header .mail:hover {
+    color: #2E2D29; }
+  header .mail:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    background: #FF4E20;
+    height: 100%;
+    width: 402px;
+    left: 0;
+    top: 0;
+    -webkit-clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 0% 100%);
+            clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 0% 100%); }
+
+.logo {
+  max-width: 170px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.header-contacts {
+  position: relative;
+  z-index: 1;
+  padding: 26px 40px 12px 30px;
+  font-size: 10px; }
+  .header-contacts .phone {
+    font-size: 20px;
+    margin: 0 0 2px;
+    color: #fff; }
+    .header-contacts .phone:hover {
+      color: #FF4E20; }
+  .header-contacts:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 937px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    -webkit-clip-path: polygon(2% 0%, 100% 0%, 100% 100%, 0% 100%);
+            clip-path: polygon(2% 0%, 100% 0%, 100% 100%, 0% 100%);
+    background: #2E2D29; }
+
+.navbar {
+  margin: 0 auto;
+  padding: 0; }
+
+.navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 14px;
+  font-weight: 500; }
+  .navbar-nav .nav-item {
+    margin: 0 18px 0 0; }
+    .navbar-nav .nav-item:last-child {
+      margin: 0; }
+  .navbar-nav .nav-link {
+    padding: 0;
+    color: #000000; }
+    .navbar-nav .nav-link:hover {
+      color: #FF4E20; }
+    .navbar-nav .nav-link.active {
+      color: #FF4E20; }
+  .navbar-nav .dropdown-toggle:after {
+    display: none; }
+  .navbar-nav .dropdown-menu {
+    position: absolute; }
+
+.btn-search {
+  margin: 0 18px 0 26px; }
+
+/*==========  section header end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/

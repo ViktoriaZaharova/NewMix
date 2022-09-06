@@ -1,0 +1,384 @@
+@import "vars"
+
+/*==========  section home ==========*/
+.home
+  position: relative
+  background: url('../img/home-bg.jpeg') no-repeat center
+    size: cover
+  z-index: 1
+  padding: 50px 0
+  &:before
+    content: ''
+    position: absolute
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+    width: 100%
+    height: 100%
+    left: 0
+    top: 0
+    z-index: -1
+
+  h1
+    font-size: 50px
+    line-height: 60px
+    font-weight: 500
+    max-width: 440px
+  .subtitle
+    margin: 8px 0 6px
+    font-size: 18px
+    line-height: 17px
+    font-weight: 500
+  .box-text
+    font-size: 18px
+    font-weight: 500
+    line-height: 24px
+
+
+
+.category-list
+  width: 100%
+  display: flex
+  align-items: flex-start
+  flex-wrap: wrap
+  justify-content: space-between
+  font-size: 14px
+  font-weight: 500
+  line-height: 18px
+  margin: 88px 0 0
+  &-item
+    flex: 1
+    color: #fff
+    text-align: center
+    margin: 0 0 36px
+    &:hover
+      color: $accent
+    &__icon
+      margin: 0 auto 33px
+      @include d-flex
+      height: 46px
+      img
+        max-height: 100%
+
+.home-content
+  position: relative
+  z-index: 1
+  color: #fff
+  padding: 32px 172px 33px 93px
+  &:before
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    z-index: -1
+    background: $accent
+    height: 100%
+    max-width: 720px
+    width: 100%
+    clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%)
+  &__footer
+    width: 100%
+    margin: 33px 0 0
+    display: flex
+    align-items: flex-start
+    flex-wrap: wrap
+
+.btn-play
+  display: flex
+  align-items: center
+  color: #fff
+  font-size: 14px
+  font-weight: 500
+  &__icon
+    @include d-flex
+    margin: 0 14px 0 0
+    width: 50px
+    height: 50px
+    fill: #fff
+  &__text
+    max-width: 95px
+  &:hover
+    color: $hover
+
+.btn-download
+  text-align: left
+  margin: 0 0 0 47px
+  .btn-icon
+    fill: #fff
+    width: 32px
+    height: 27px
+    margin: 0 0 0 15px
+    @include d-flex
+  .btn-text
+    max-width: 152px
+
+.btn-system
+  padding: 13px 33px 13px 27px
+  .btn-icon
+    width: 46px
+    height: 46px
+    fill: #fff
+    margin: 0 23px 0 0
+
+/*==========  section home end  ==========*/
+
+
+
+/*==========  section about ==========*/
+.about
+  margin: 114px 0 176px
+  color: #fff
+
+.about-title
+  position: relative
+  z-index: 1
+  padding: 47px 0 82px 0
+  h2
+    font-size: 34px
+    font-weight: 500
+    line-height: 40px
+    margin: 0
+    text-transform: uppercase
+  &:before
+    content: ''
+    position: absolute
+    top: 0
+    width: 1103px
+    right: -128px
+    height: 100%
+    z-index: -1
+    background: $accent
+    clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%)
+
+.about-content
+  position: relative
+  z-index: 1
+  padding: 56px 0 45px 50px
+  margin: 60px 0 0
+  &:before
+    content: ''
+    position: absolute
+    top: 0
+    left: -112px
+    height: 100%
+    width: 1466px
+    background: $hover
+    z-index: -1
+    clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%)
+
+/*==========  section about end  ==========*/
+
+
+/*==========  section helper ==========*/
+.helper-title
+  position: relative
+  padding: 0 30px 0 0
+  margin: 0 0 58px
+  &:before
+    content: ''
+    position: absolute
+    width: 94px
+    height: 178px
+    background: url("../img/figure.svg") no-repeat center
+      size: 100%
+    top: 50%
+    right: -14px
+    transform: translate(0,-50%)
+  .subtitle
+    font-size: 24px
+    line-height: 36px
+    font-weight: bold
+    max-width: 550px
+  h2
+    margin: 0 0 20px
+    line-height: 60px
+
+.helper-box
+  padding: 58px 18px
+  text-align: center
+  font-size: 16px
+  line-height: 26px
+  font-weight: 500
+  position: relative
+  z-index: 1
+  min-height: 305px
+  &:before
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: url("../img/border1.svg") no-repeat center top
+      size: 100%
+  strong
+    font-weight: bold
+
+
+.helper-box2, .helper-box3
+  padding: 58px 42px
+  &:before
+    background: url("../img/border2.svg") no-repeat center top
+      size: 100%
+
+.helper-box3
+  padding: 58px 42px 20px
+  &:before
+    background: url("../img/border3.svg") no-repeat center top
+      size: 100%
+
+/*==========  section helper end  ==========*/
+
+
+
+/*==========  section advantages ==========*/
+.advantages
+  margin: -119px 0 39px
+  padding: 250px 0 88px
+  background: url("../img/advantages-bg.png") no-repeat center
+    size: cover
+  color: #fff
+  position: relative
+
+.advantages-box
+  margin: 0 0 56px
+  &__number
+    color: $accent
+    font-size: 72px
+    font-weight: 700
+  h3
+    margin: 11px 0 8px
+    font-size: 32px
+    font-weight: bold
+    line-height: 31px
+  .box-text
+    font-weight: 500
+  h4
+    font-size: 32px
+    font-weight: bold
+    line-height: 31px
+
+.advantages-box-wrap
+  display: flex
+  align-items: center
+  .advantages-box__number
+    margin: 0 11px 0 0
+  h3
+    max-width: 180px
+    margin: 0
+
+.region-box
+  display: flex
+  align-items: center
+  position: relative
+  z-index: 1
+  padding: 291px 20px 250px 0
+  margin: -140px 0 -193px 0
+  &__val
+    font-size: 72px
+    font-weight: 700
+    margin: 0 15px 0 0
+  &__text
+    font-size: 32px
+    font-weight: bold
+    line-height: 31px
+  &:before
+    content: ''
+    position: absolute
+    width: 1230px
+    height: 606px
+    background: url("../img/map-svg.svg") no-repeat center
+      size: 100%
+    z-index: -1
+    left: -163px
+    top: 0
+
+
+/*==========  section advantages end  ==========*/
+
+
+/*==========  section worth ==========*/
+.worth
+  margin: 0 0 93px
+
+.worth-box
+  width: 100%
+  height: 100%
+  position: relative
+  background: #EAEAEA
+  border-radius: 5px
+  padding: 33px 39px 24px 31px
+  overflow: hidden
+  &:before
+    content: ''
+    position: absolute
+    right: 0
+    bottom: 0
+    background: #FF4E20
+    width: 73px
+    height: 73px
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%)
+  &-head
+    width: 100%
+    display: flex
+    align-items: center
+    margin: 0 0 17px
+    &__icon
+      @include d-flex
+      margin: 0 18px 0 0
+      height: 58px
+      width: 52px
+      img
+        max-height: 100%
+  h3
+    text-transform: uppercase
+    font-weight: bold
+    line-height: 26px
+    max-width: 310px
+
+
+/*==========  section worth end  ==========*/
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
+
+
+

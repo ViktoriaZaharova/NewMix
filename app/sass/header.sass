@@ -1,0 +1,87 @@
+@import "vars"
+
+/*==========  section header ==========*/
+header
+  .mail
+    position: relative
+    z-index: 1
+    padding: 34px 31px 20px 43px
+    color: #fff
+    font-size: 15px
+    font-weight: bold
+    &:hover
+      color: $hover
+    &:before
+      content: ''
+      position: absolute
+      z-index: -1
+      background: #FF4E20
+      height: 100%
+      width: 402px
+      left: 0
+      top: 0
+      clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 0% 100%)
+
+.logo
+  max-width: 170px
+  width: 100%
+  @include d-flex
+
+.header-contacts
+  position: relative
+  z-index: 1
+  padding: 26px 40px 12px 30px
+  font-size: 10px
+  .phone
+    font-size: 20px
+    margin: 0 0 2px
+    color: #fff
+    &:hover
+      color: $accent
+  &:before
+    content: ''
+    position: absolute
+    z-index: -1
+    width: 937px
+    height: 100%
+    top: 0
+    left: 0
+    clip-path: polygon(2% 0%, 100% 0%, 100% 100%, 0% 100%)
+    background: #2E2D29
+
+.navbar
+  margin: 0 auto
+  padding: 0
+
+.navbar-nav
+  display: flex
+  align-items: center
+  flex-direction: row
+  font-size: 14px
+  font-weight: 500
+  .nav-item
+    margin: 0 18px 0 0
+    &:last-child
+      margin: 0
+  .nav-link
+    padding: 0
+    color: #000000
+    &:hover
+      color: $accent
+    &.active
+      color: $accent
+  .dropdown-toggle
+    &:after
+      display: none
+  .dropdown-menu
+    position: absolute
+
+.btn-search
+  margin: 0 18px 0 26px
+/*==========  section header end  ==========*/
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
