@@ -231,7 +231,7 @@
 
 /*==========  section advantages ==========*/
 .advantages
-  margin: -119px 0 39px
+  margin: -139px 0 39px
   padding: 250px 0 88px
   background: url("../img/advantages-bg.png") no-repeat center
     size: cover
@@ -307,6 +307,7 @@
   border-radius: 5px
   padding: 33px 39px 24px 31px
   overflow: hidden
+  z-index: 1
   &:before
     content: ''
     position: absolute
@@ -316,6 +317,7 @@
     width: 73px
     height: 73px
     clip-path: polygon(100% 0, 0% 100%, 100% 100%)
+    z-index: -1
   &-head
     width: 100%
     display: flex
@@ -326,6 +328,7 @@
       margin: 0 18px 0 0
       height: 58px
       width: 52px
+      min-width: 52px
       img
         max-height: 100%
   h3
@@ -339,6 +342,96 @@
 
 
 
+/*==========  section slogan ==========*/
+.slogan
+  margin: 0 0 128px
+  color: #fff
+  .title
+    width: fit-content
+    position: relative
+    z-index: 2
+    padding: 43px 75px 32px 0
+    font-size: 102px
+    line-height: 86px
+    margin: 0
+    &:before
+      content: ''
+      position: absolute
+      top: 0
+      right: 0
+      height: 100%
+      background: $accent
+      width: 1200px
+      z-index: -1
+      clip-path: polygon(0 0, 100% 0%, 92% 100%, 0% 100%)
+  .subtitle
+    position: relative
+    z-index: 1
+    padding: 30px 126px 30px 24px
+    font-size: 72px
+    line-height: 80px
+    text-transform: uppercase
+    font-weight: bold
+    display: flex
+    align-items: center
+    width: calc(100% - 340px)
+    &:before
+      content: ''
+      position: absolute
+      z-index: -1
+      height: 100%
+      background: #2E2D29
+      right: 0
+      width: 1443px
+      clip-path: polygon(0 0, 100% 0%, 92% 100%, 0% 100%)
+
+
+
+/*==========  section slogan end  ==========*/
+
+
+
+/*==========  section objects ==========*/
+.objects
+  margin: 0 0 79px
+  h2
+    margin: 0 0 77px
+
+.objects-slider
+  .slick-list
+    margin: 0 -10px
+  .slick-slide
+    padding: 0 10px
+    height: auto
+  .slick-track
+    display: flex
+    align-items: stretch
+
+.objects-card
+  width: 100%
+  height: 100%
+  border: 2px solid #FF5100
+    radius: 5px
+  text-align: center
+  color: #2E2D29
+  padding: 18px 18px 32px
+  &__image
+    @include d-flex
+    margin: 0 auto 26px
+    width: 100%
+    height: 245px
+    img
+      width: 100%
+      height: 100%
+      object-fit: cover
+  &:hover
+    color: $accent
+
+
+/*==========  section objects end  ==========*/
+
+
+
 /*==========  section  ==========*/
 
 /*==========  section end  ==========*/
@@ -381,4 +474,48 @@
 
 
 
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
 

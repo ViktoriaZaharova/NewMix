@@ -157,6 +157,10 @@ button, .btn {
     fill: #FF4E20; }
     .btn-border:hover .btn-icon {
       fill: #FF4E20; }
+  .btn-border.btn-sm {
+    border-width: 1px;
+    padding: 11.5px 19px;
+    font-weight: normal; }
 
 .btn-icon {
   display: -webkit-box;
@@ -231,3 +235,52 @@ h2 {
 
 .mb-20 {
   margin-bottom: 20px; }
+
+.slick-slider {
+  width: 100%; }
+
+.slick-slide {
+  outline: none; }
+
+.slick-dots {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin: 35px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  padding: 0; }
+  .slick-dots li {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #FF4E20;
+      border-radius: 50%;
+    margin: 0 15px 0 0;
+    -webkit-transition: .3s ease;
+    transition: .3s ease; }
+    .slick-dots li:last-child {
+      margin: 0; }
+    .slick-dots li button {
+      display: none; }
+    .slick-dots li.slick-active {
+      background: #FF4E20; }

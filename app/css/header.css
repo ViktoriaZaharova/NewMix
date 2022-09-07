@@ -59,6 +59,8 @@ header .mail {
 .navbar {
   margin: 0 auto;
   padding: 0; }
+  .navbar .mail, .navbar .header-contacts {
+    display: none; }
 
 .navbar-nav {
   display: -webkit-box;
@@ -87,10 +89,72 @@ header .mail {
   .navbar-nav .dropdown-toggle:after {
     display: none; }
   .navbar-nav .dropdown-menu {
-    position: absolute; }
+    border: none;
+      border-radius: 5px;
+    -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    background: #fff;
+    position: absolute;
+    padding: 28px 24px;
+    font-size: 14px; }
+    .navbar-nav .dropdown-menu li {
+      margin: 0 0 24px; }
+      .navbar-nav .dropdown-menu li:last-child {
+        margin: 0; }
+
+.dropdown-item {
+  padding: 0; }
+  .dropdown-item:hover {
+    background: transparent;
+    color: #FF4E20; }
 
 .btn-search {
   margin: 0 18px 0 26px; }
+
+.btn-burger {
+  width: 24px;
+  height: 16px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: none;
+  margin: 0 10px 0 0;
+  cursor: pointer; }
+  .btn-burger span {
+    width: 100%;
+    height: 2px;
+    background: #2E2D29;
+    display: block; }
+
+.navbar-close {
+  display: none;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer; }
+  .navbar-close:before, .navbar-close:after {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: #2E2D29;
+    border-radius: 2px; }
+  .navbar-close:before {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg); }
+  .navbar-close:after {
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg); }
 
 /*==========  section header end  ==========*/
 /*==========  section  ==========*/

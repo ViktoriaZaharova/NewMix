@@ -1,8 +1,125 @@
 @import "vars"
 
-/*==========  section  ==========*/
+/*==========  section footer ==========*/
+footer
+  background: $accent
+  padding: 61px 0 62px
+  color: #fff
 
-/*==========  section end  ==========*/
+.footer-contacts
+  margin: 0 0 40px
+  position: relative
+  padding: 0 0 0 25px
+  &:last-child
+    margin: 0
+  .box-text
+    margin: 5px 0 0
+  &-head
+    width: 100%
+    display: flex
+    align-items: center
+    margin: 0 0 5px
+    &__icon
+      @include d-flex
+      position: absolute
+      left: 0
+      top: -3px
+      width: 13px
+      height: 17px
+    &__title
+      font-weight: bold
+  .btn
+    margin: 16px 0 0
+
+
+.tel
+  color: #fff
+  font-size: 24px
+  font-weight: bold
+  &:hover
+    color: $hover
+  &-icon
+    fill: #fff
+    width: 13px
+    height: 23px
+    position: absolute
+    left: 0
+    top: -3px
+
+.footer-contacts-callback
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  margin: 40px 0 0
+  p
+    max-width: 198px
+    margin: 0 8px 0 0
+
+.footer-menu
+  margin: 0 0 25px
+  h3
+    margin: 0 0 3px
+    font-weight: bold
+    font-size: 24px
+  h4
+    font-weight: bold
+    margin: 0 0 7px
+
+.footer-menu-list
+  line-height: 29px
+  li
+    a
+      color: #fff
+      &:hover
+        color: $hover
+
+.map
+  width: 100%
+  height: 262px
+  overflow: hidden
+  border-radius: 5px
+  iframe
+    width: 100%
+    height: 100%
+
+.social
+  display: flex
+  align-items: center
+  margin: 0 0 0 56px
+  p
+    margin: 0 15px 0 0
+
+.footer-messengers
+  width: 100%
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  margin: 0 0 18px
+
+.footer-mail
+  display: flex
+  align-items: center
+  color: #fff
+  &__icon
+    fill: #fff
+    @include d-flex
+    width: 18px
+    height: 13px
+    margin: 0 7px 0 0
+  &:hover
+    color: $hover
+
+.list-social
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  li
+    margin: 0 11px 0 0
+    &:last-child
+      margin: 0
+    a
+      @include d-flex
+/*==========  section footer end  ==========*/
 
 
 

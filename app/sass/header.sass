@@ -52,6 +52,8 @@ header
 .navbar
   margin: 0 auto
   padding: 0
+  .mail, .header-contacts
+    display: none
 
 .navbar-nav
   display: flex
@@ -74,10 +76,65 @@ header
     &:after
       display: none
   .dropdown-menu
+    border: none
+      radius: 5px
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05)
+    background: #fff
     position: absolute
+    padding: 28px 24px
+    font-size: 14px
+    li
+      margin: 0 0 24px
+      &:last-child
+        margin: 0
+
+.dropdown-item
+  padding: 0
+  &:hover
+    background: transparent
+    color: $accent
 
 .btn-search
   margin: 0 18px 0 26px
+
+.btn-burger
+  width: 24px
+  height: 16px
+  justify-content: space-between
+  align-self: center
+  flex-direction: column
+  display: none
+  margin: 0 10px 0 0
+  cursor: pointer
+  span
+    width: 100%
+    height: 2px
+    background: $hover
+    display: block
+
+
+.navbar-close
+  display: none
+  width: 20px
+  height: 20px
+  position: absolute
+  right: 20px
+  top: 20px
+  cursor: pointer
+  &:before, &:after
+    content: ''
+    position: absolute
+    left: 10px
+    top: 0
+    width: 2px
+    height: 100%
+    background: $hover
+    border-radius: 2px
+  &:before
+    transform: rotate(45deg)
+  &:after
+    transform: rotate(135deg)
+
 /*==========  section header end  ==========*/
 
 

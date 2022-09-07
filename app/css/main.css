@@ -264,7 +264,7 @@
 /*==========  section helper end  ==========*/
 /*==========  section advantages ==========*/
 .advantages {
-  margin: -119px 0 39px;
+  margin: -139px 0 39px;
   padding: 250px 0 88px;
   background: url("../img/advantages-bg.png") no-repeat center;
     background-size: cover;
@@ -344,7 +344,8 @@
   background: #EAEAEA;
   border-radius: 5px;
   padding: 33px 39px 24px 31px;
-  overflow: hidden; }
+  overflow: hidden;
+  z-index: 1; }
   .worth-box:before {
     content: '';
     position: absolute;
@@ -354,7 +355,8 @@
     width: 73px;
     height: 73px;
     -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-            clip-path: polygon(100% 0, 0% 100%, 100% 100%); }
+            clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    z-index: -1; }
   .worth-box-head {
     width: 100%;
     display: -webkit-box;
@@ -376,7 +378,8 @@
               justify-content: center;
       margin: 0 18px 0 0;
       height: 58px;
-      width: 52px; }
+      width: 52px;
+      min-width: 52px; }
       .worth-box-head__icon img {
         max-height: 100%; }
   .worth-box h3 {
@@ -386,6 +389,125 @@
     max-width: 310px; }
 
 /*==========  section worth end  ==========*/
+/*==========  section slogan ==========*/
+.slogan {
+  margin: 0 0 128px;
+  color: #fff; }
+  .slogan .title {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    position: relative;
+    z-index: 2;
+    padding: 43px 75px 32px 0;
+    font-size: 102px;
+    line-height: 86px;
+    margin: 0; }
+    .slogan .title:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      background: #FF4E20;
+      width: 1200px;
+      z-index: -1;
+      -webkit-clip-path: polygon(0 0, 100% 0%, 92% 100%, 0% 100%);
+              clip-path: polygon(0 0, 100% 0%, 92% 100%, 0% 100%); }
+  .slogan .subtitle {
+    position: relative;
+    z-index: 1;
+    padding: 30px 126px 30px 24px;
+    font-size: 72px;
+    line-height: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: calc(100% - 340px); }
+    .slogan .subtitle:before {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      height: 100%;
+      background: #2E2D29;
+      right: 0;
+      width: 1443px;
+      -webkit-clip-path: polygon(0 0, 100% 0%, 92% 100%, 0% 100%);
+              clip-path: polygon(0 0, 100% 0%, 92% 100%, 0% 100%); }
+
+/*==========  section slogan end  ==========*/
+/*==========  section objects ==========*/
+.objects {
+  margin: 0 0 79px; }
+  .objects h2 {
+    margin: 0 0 77px; }
+
+.objects-slider .slick-list {
+  margin: 0 -10px; }
+
+.objects-slider .slick-slide {
+  padding: 0 10px;
+  height: auto; }
+
+.objects-slider .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch; }
+
+.objects-card {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #FF5100;
+    border-radius: 5px;
+  text-align: center;
+  color: #2E2D29;
+  padding: 18px 18px 32px; }
+  .objects-card__image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto 26px;
+    width: 100%;
+    height: 245px; }
+    .objects-card__image img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
+  .objects-card:hover {
+    color: #FF4E20; }
+
+/*==========  section objects end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
 /*==========  section  ==========*/
 /*==========  section end  ==========*/
 /*==========  section  ==========*/
