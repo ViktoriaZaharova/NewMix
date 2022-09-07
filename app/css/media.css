@@ -1,4 +1,8 @@
 /*==========  Desktop First  ==========*/
+@media only screen and (max-width: 1600px) {
+  .job-image-decor {
+    min-width: 1000px; } }
+
 @media only screen and (max-width: 1200px) {
   .header-contacts {
     font-size: 9px;
@@ -44,7 +48,25 @@
       line-height: normal; }
     .slogan .subtitle {
       font-size: 60px;
-      line-height: 1.2; } }
+      line-height: 1.2; }
+  .hr-department__content:before {
+    width: calc(100% + 30px); }
+  .job-invitation {
+    margin: 60px 0; }
+    .job-invitation .helper-title {
+      margin: 0 0 40px;
+      padding: 0 130px 0 0; }
+      .job-invitation .helper-title:before {
+        right: 0;
+        width: 120px;
+        height: 280px; }
+  .job-content {
+    padding: 0; }
+    .job-content h3 {
+      font-size: 26px; }
+  .job-image-decor {
+    min-width: 800px;
+    height: 300px; } }
 
 @media only screen and (max-width: 992px) {
   .navbar {
@@ -147,7 +169,40 @@
   .contacts-row .footer-contacts-callback {
     margin: 0 0 0 110px; }
   .contacts-box, .page-contacts .footer-contacts, .contacts-row {
-    margin: 0 0 40px; } }
+    margin: 0 0 40px; }
+  .page-career h1 {
+    margin: 0 0 30px; }
+  .vacancy-text:before {
+    -webkit-clip-path: none;
+            clip-path: none; }
+  .vacancy-image {
+    min-width: auto;
+    width: 100%;
+    margin: 20px auto 0;
+    height: auto; }
+  .hr-department__manager {
+    max-width: none;
+    padding: 30px;
+    margin: 0 0 40px; }
+    .hr-department__manager a {
+      font-size: 20px; }
+  .hr-department__content {
+    width: 100%;
+    padding: 30px; }
+    .hr-department__content h3 {
+      font-size: 20px;
+      margin: 0 0 20px;
+      line-height: 1.2; }
+    .hr-department__content:before {
+      width: 100%; }
+  .job-image {
+    margin: 30px auto 0;
+    height: auto; }
+  .job-image-decor {
+    min-width: auto;
+    height: auto; }
+    .job-image-decor:before {
+      display: none; } }
 
 @media only screen and (max-width: 768px) {
   .home h1 {
@@ -207,7 +262,20 @@
   .page {
     margin: 50px 0 70px; }
   .page-contacts {
-    margin: 0; } }
+    margin: 0; }
+  .page-career {
+    margin: 50px 0; }
+  .accordion-vacancy .accordion-body__head {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.2; }
+  .accordion-vacancy .accordion-body__content {
+    padding: 20px; }
+  .vacancy-box h3 {
+    font-size: 20px;
+    line-height: 1.3; }
+  .mb-80 {
+    margin-bottom: 40px; } }
 
 @media only screen and (max-width: 576px) {
   .btn-search {
@@ -334,7 +402,9 @@
         flex-wrap: wrap; }
     .page-contacts .footer-contacts .box-text p {
       max-width: none;
-      width: 100%; } }
+      width: 100%; }
+  .vacancy-text {
+    padding: 20px 0; } }
 
 @media only screen and (max-width: 480px) {
   .home-content {
@@ -372,7 +442,11 @@
     margin: 10px 0 0;
     width: 100%; }
   .contacts-box h3 {
-    font-size: 22px; } }
+    font-size: 22px; }
+  .job-invitation .helper-title {
+    padding: 0; }
+  .helper-title h2 {
+    font-size: 30px; } }
 
 @media only screen and (max-width: 380px) {
   .header-contacts {

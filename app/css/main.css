@@ -678,27 +678,225 @@
     height: 23px; }
 
 /*==========  section page-contacts end  ==========*/
-/*==========  section  ==========*/
-/*==========  section end  ==========*/
-/*==========  section  ==========*/
-/*==========  section end  ==========*/
-/*==========  section  ==========*/
-/*==========  section end  ==========*/
-/*==========  section  ==========*/
-/*==========  section end  ==========*/
-/*==========  section  ==========*/
-/*==========  section end  ==========*/
-/*==========  section  ==========*/
-/*==========  section end  ==========*/
-/*==========  section  ==========*/
-/*==========  section end  ==========*/
-/*==========  section  ==========*/
-/*==========  section end  ==========*/
-/*==========  section  ==========*/
-/*==========  section end  ==========*/
-/*==========  section  ==========*/
-/*==========  section end  ==========*/
-/*==========  section  ==========*/
-/*==========  section end  ==========*/
-/*==========  section  ==========*/
-/*==========  section end  ==========*/
+/*==========  section page-career ==========*/
+.page-career {
+  margin: 66px 0; }
+  .page-career h1 {
+    margin: 0; }
+
+.vacancy-text {
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  padding: 28px 0 32px;
+  font-weight: 500; }
+  .vacancy-text h3 {
+    font-weight: bold;
+    font-size: 24px; }
+  .vacancy-text:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 1400px;
+    top: 0;
+    right: -110px;
+    background: #FF4E20;
+    -webkit-clip-path: polygon(0 0, 100% 0, 93.5% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 93.5% 100%, 0% 100%); }
+
+.vacancy-image {
+  min-width: 951px;
+  margin-left: auto;
+  border-radius: 5px;
+  height: 387px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .vacancy-image img {
+    width: 100%; }
+
+.hr-department-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  margin: 0 0 60px; }
+  .hr-department-wrapper h3 {
+    margin: 0 0 34px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px; }
+
+.hr-department__content {
+  width: calc(100% - 392px);
+  padding: 25px 59px 36px 40px;
+  position: relative;
+  z-index: 1; }
+  .hr-department__content:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border: 2px solid #FF5100;
+      border-radius: 5px;
+    z-index: -1;
+    width: 972px; }
+
+.hr-department__manager {
+  color: #fff;
+  background: #2E2D29;
+  border-radius: 5px;
+  padding: 46px 50px 40px;
+  max-width: 392px;
+  width: 100%;
+  position: relative;
+  z-index: 1; }
+  .hr-department__manager a {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 4px; }
+    .hr-department__manager a:last-child {
+      margin: 0; }
+    .hr-department__manager a:hover {
+      color: #FF4E20; }
+
+.manager-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 22px 0 18px;
+  line-height: 24px; }
+  .manager-box__photo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 18px 0 0;
+    width: 44px;
+    min-width: 44px;
+    height: 44px;
+    overflow: hidden;
+    border-radius: 50%; }
+    .manager-box__photo img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
+
+.accordion-vacancy .accordion-header {
+  background: #FF4E20;
+  color: #fff;
+  border-radius: 5px; }
+  .accordion-vacancy .accordion-header:after {
+    background: #fff; }
+
+.accordion-vacancy .accordion-item {
+  margin: 0 0 35px;
+  border: none;
+    border-radius: 5px;
+  position: relative;
+  z-index: 1; }
+
+.accordion-vacancy .accordion-body {
+  padding: 0;
+  border: 1px solid #9E9E9E;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+  margin: -2px 0 0; }
+  .accordion-vacancy .accordion-body__head {
+    border-bottom: 1px solid #FF4E20;
+    padding: 31px 40px 34px;
+    font-size: 20px;
+    line-height: 29px; }
+  .accordion-vacancy .accordion-body__content {
+    padding: 35px 40px; }
+
+.vacancy-box {
+  margin: 0 0 34px;
+  line-height: 26px; }
+  .vacancy-box h3 {
+    margin: 0 0 6px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px; }
+
+.job-invitation {
+  margin: 92px 0 103px; }
+  .job-invitation .helper-title {
+    margin: 0 0 80px; }
+    .job-invitation .helper-title .subtitle {
+      max-width: 674px;
+      font-size: 16px;
+      line-height: 26px; }
+    .job-invitation .helper-title:before {
+      width: 188px;
+      height: 355px; }
+
+.job-image {
+  overflow: hidden;
+  border-radius: 5px;
+  width: 100%;
+  height: 408px; }
+  .job-image img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
+
+.job-content {
+  padding: 0 0 0 50px; }
+  .job-content h3 {
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    font-size: 34px;
+    font-weight: 500; }
+  .job-content ul li {
+    margin: 0 0 15px; }
+    .job-content ul li:last-child {
+      margin: 0; }
+
+.job-content-v2 {
+  padding: 0; }
+
+.job-image-decor {
+  border-radius: 0;
+  height: 380px;
+  position: relative;
+  min-width: 1445px;
+  margin-left: auto; }
+  .job-image-decor:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 135px;
+    background: #fff;
+    -webkit-clip-path: polygon(0 0, 100% 0, 0 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 0 100%, 0% 100%); }
+
+/*==========  section page-career end  ==========*/

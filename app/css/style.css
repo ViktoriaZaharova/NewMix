@@ -175,10 +175,14 @@ button, .btn {
 
 .btn-accent {
   color: #fff;
-  background: #FF4E20; }
+  background: #FF4E20;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: normal; }
   .btn-accent:hover {
     background: #2E2D29;
-    color: inherit; }
+    color: #fff; }
 
 .svg-icon {
   display: inline-block;
@@ -248,6 +252,9 @@ h2 {
 
 .mb-20 {
   margin-bottom: 20px; }
+
+.mb-80 {
+  margin-bottom: 80px; }
 
 .slick-slider {
   width: 100%; }
