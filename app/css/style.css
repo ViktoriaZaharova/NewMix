@@ -233,6 +233,19 @@ h2 {
     .box-text p:last-child {
       margin: 0; }
 
+.list-dots li {
+  position: relative;
+  padding: 0 0 0 34px; }
+  .list-dots li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #FF4E20; }
+
 .mb-20 {
   margin-bottom: 20px; }
 

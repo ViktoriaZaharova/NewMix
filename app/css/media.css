@@ -137,7 +137,17 @@
   .footer-messengers {
     margin: 30px 0 20px; }
   footer {
-    padding: 40px 0; } }
+    padding: 40px 0; }
+  .page-contacts {
+    padding: 40px 0; }
+    .page-contacts .map {
+      height: 400px;
+      min-width: auto;
+      margin: 20px 0 0; }
+  .contacts-row .footer-contacts-callback {
+    margin: 0 0 0 110px; }
+  .contacts-box, .page-contacts .footer-contacts, .contacts-row {
+    margin: 0 0 40px; } }
 
 @media only screen and (max-width: 768px) {
   .home h1 {
@@ -193,7 +203,11 @@
     .slogan .title:before {
       -webkit-clip-path: none;
               clip-path: none;
-      right: -10px; } }
+      right: -10px; }
+  .page {
+    margin: 50px 0 70px; }
+  .page-contacts {
+    margin: 0; } }
 
 @media only screen and (max-width: 576px) {
   .btn-search {
@@ -290,7 +304,37 @@
   .title {
     font-size: 30px; }
   .social {
-    margin: 0 0 0 30px; } }
+    margin: 0 0 0 30px; }
+  .list-documents h3 {
+    font-size: 20px;
+    line-height: 1.2; }
+  .list-documents li:before {
+    top: 6px; }
+  .list-dots li {
+    padding: 0 0 0 20px; }
+    .list-dots li:before {
+      width: 10px;
+      height: 10px; }
+  .accordion-header {
+    padding: 20px;
+    font-size: 20px; }
+    .accordion-header:after {
+      width: 20px;
+      height: 10px;
+      min-width: 20px; }
+  .accordion-body {
+    padding: 10px 20px 20px; }
+  .contacts-row .footer-contacts-callback {
+    width: 100%;
+    margin: 20px 0 0; }
+  .contacts-row .footer-contacts {
+    margin: 0 0 20px; }
+  .page-contacts .footer-contacts .box-text {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .page-contacts .footer-contacts .box-text p {
+      max-width: none;
+      width: 100%; } }
 
 @media only screen and (max-width: 480px) {
   .home-content {
@@ -326,7 +370,9 @@
     margin: 0 0 10px; }
   .social {
     margin: 10px 0 0;
-    width: 100%; } }
+    width: 100%; }
+  .contacts-box h3 {
+    font-size: 22px; } }
 
 @media only screen and (max-width: 380px) {
   .header-contacts {

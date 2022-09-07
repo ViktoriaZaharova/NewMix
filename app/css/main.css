@@ -492,12 +492,192 @@
     color: #FF4E20; }
 
 /*==========  section objects end  ==========*/
-/*==========  section  ==========*/
-/*==========  section end  ==========*/
-/*==========  section  ==========*/
-/*==========  section end  ==========*/
-/*==========  section  ==========*/
-/*==========  section end  ==========*/
+/*==========  section page ==========*/
+.page {
+  margin: 66px 0 146px; }
+  .page h1 {
+    margin: 0 0 28px; }
+
+.list-documents {
+  width: 100%; }
+  .list-documents li {
+    width: 100%;
+    margin: 0 0 40px; }
+    .list-documents li:last-child {
+      margin: 0; }
+    .list-documents li:before {
+      top: 8px; }
+  .list-documents h3 {
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px; }
+
+/*==========  section page end  ==========*/
+/*==========  section question ==========*/
+.accordion-item {
+  width: 100%;
+  margin: 0 0 20px;
+  border: 1px solid #B5B5B5;
+    border-radius: 5px; }
+  .accordion-item:last-child {
+    margin: 0; }
+
+.accordion-header {
+  padding: 20px 27px 20px 31px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: bold;
+  font-size: 24px;
+  cursor: pointer; }
+  .accordion-header:after {
+    content: '';
+    display: inline-block;
+    -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+            clip-path: polygon(50% 100%, 0 0, 100% 0);
+    background: #FF4E20;
+    width: 30px;
+    min-width: 30px;
+    height: 15px;
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg); }
+  .accordion-header.collapsed:after {
+    -webkit-transform: none;
+            transform: none; }
+
+.accordion-body {
+  padding: 7px 24px 48px 31px; }
+
+.accordion-item:not(:first-of-type) {
+  border: 1px solid #B5B5B5; }
+
+/*==========  section question end  ==========*/
+/*==========  section page-contacts ==========*/
+.page-contacts {
+  margin: 0;
+  background: #FF4E20;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  padding: 0 0 86px; }
+  .page-contacts:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    mix-blend-mode: soft-light;
+    opacity: .2;
+    width: 100%;
+    height: 953px;
+    background: url("../img/contacts-bg.jpeg") no-repeat center top;
+      background-size: 100%; }
+  .page-contacts .map {
+    border-radius: 0;
+    height: 953px;
+    min-width: 979px;
+    margin-left: auto; }
+  .page-contacts .social {
+    margin: 22px 0 0;
+    width: 100%; }
+  .page-contacts .footer-contacts {
+    margin: 0 0 58px; }
+    .page-contacts .footer-contacts .box-text {
+      line-height: 22px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end; }
+      .page-contacts .footer-contacts .box-text p {
+        max-width: 273px;
+        margin: 0 27px 0 0; }
+    .page-contacts .footer-contacts .btn {
+      max-width: 178px;
+      width: 100%;
+      padding: 0 10px;
+      height: 43px; }
+
+.contacts-row {
+  margin: 63px 0 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .contacts-row .footer-contacts-callback {
+    margin: 0 50px 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+    .contacts-row .footer-contacts-callback p {
+      margin: 0 0 23px;
+      line-height: 22px; }
+  .contacts-row .footer-contacts {
+    margin: 0; }
+  .contacts-row .btn {
+    max-width: 178px;
+    width: 100%;
+    padding: 0 10px;
+    height: 43px; }
+
+.contacts-box {
+  margin: 0 0 65px; }
+  .contacts-box:last-child {
+    margin: 0; }
+  .contacts-box h4 {
+    margin: 0 0 10px;
+    font-weight: bold; }
+  .contacts-box .footer-mail {
+    margin: 11px 0; }
+  .contacts-box .tel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .contacts-box .tel-icon {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 13px 0 0; }
+  .contacts-box p {
+    font-size: 14px; }
+  .contacts-box h3 {
+    margin: 10px 0 13px;
+    font-weight: bold;
+    font-size: 24px; }
+
+.tel-hot {
+  margin: 8px 0 0;
+  font-size: 14px; }
+  .tel-hot .tel-icon {
+    width: 9px;
+    height: 16px;
+    margin: 0 10px 0 0; }
+
+.tel-mobile {
+  font-size: 14px; }
+  .tel-mobile .tel-icon {
+    margin: 0 16px 0 0;
+    width: 13px;
+    height: 23px; }
+
+/*==========  section page-contacts end  ==========*/
 /*==========  section  ==========*/
 /*==========  section end  ==========*/
 /*==========  section  ==========*/

@@ -432,21 +432,172 @@
 
 
 
-/*==========  section  ==========*/
+/*==========  section page ==========*/
+.page
+  margin: 66px 0 146px
+  h1
+    margin: 0 0 28px
 
-/*==========  section end  ==========*/
+.list-documents
+  width: 100%
+  li
+    width: 100%
+    margin: 0 0 40px
+    &:last-child
+      margin: 0
+    &:before
+      top: 8px
+  h3
+    width: 100%
+    font-size: 24px
+    font-weight: bold
+    line-height: 36px
+
+/*==========  section page end  ==========*/
 
 
 
-/*==========  section  ==========*/
+/*==========  section question ==========*/
+.accordion-item
+  width: 100%
+  margin: 0 0 20px
+  border: 1px solid #B5B5B5
+    radius: 5px
+  &:last-child
+    margin: 0
 
-/*==========  section end  ==========*/
+.accordion-header
+  padding: 20px 27px 20px 31px
+  display: flex
+  align-items: center
+  justify-content: space-between
+  font-weight: bold
+  font-size: 24px
+  cursor: pointer
+  &:after
+    content: ''
+    display: inline-block
+    clip-path: polygon(50% 100%, 0 0, 100% 0)
+    background: $accent
+    width: 30px
+    min-width: 30px
+    height: 15px
+    transform: rotate(-180deg)
+  &.collapsed
+    &:after
+      transform: none
+
+.accordion-body
+  padding: 7px 24px 48px 31px
+
+.accordion-item:not(:first-of-type)
+  border: 1px solid #B5B5B5
+/*==========  section question end  ==========*/
 
 
 
-/*==========  section  ==========*/
+/*==========  section page-contacts ==========*/
+.page-contacts
+  margin: 0
+  background: $accent
+  color: #fff
+  position: relative
+  z-index: 1
+  padding: 0 0 86px
+  &:before
+    content: ''
+    position: absolute
+    z-index: -1
+    mix-blend-mode: soft-light
+    opacity: .2
+    width: 100%
+    height: 953px
+    background: url("../img/contacts-bg.jpeg") no-repeat center top
+      size: 100%
+  .map
+    border-radius: 0
+    height: 953px
+    min-width: 979px
+    margin-left: auto
+  .social
+    margin: 22px 0 0
+    width: 100%
+  .footer-contacts
+    margin: 0 0 58px
+    .box-text
+      line-height: 22px
+      display: flex
+      align-items: flex-end
+      p
+        max-width: 273px
+        margin: 0 27px 0 0
+    .btn
+      max-width: 178px
+      width: 100%
+      padding: 0 10px
+      height: 43px
 
-/*==========  section end  ==========*/
+.contacts-row
+  margin: 63px 0 44px
+  display: flex
+  align-items: flex-start
+  flex-wrap: wrap
+  .footer-contacts-callback
+    margin: 0 50px 0 auto
+    flex-direction: column
+    align-items: flex-start
+    p
+      margin: 0 0 23px
+      line-height: 22px
+  .footer-contacts
+    margin: 0
+  .btn
+    max-width: 178px
+    width: 100%
+    padding: 0 10px
+    height: 43px
+
+
+.contacts-box
+  margin: 0 0 65px
+  &:last-child
+    margin: 0
+  h4
+    margin: 0 0 10px
+    font-weight: bold
+  .footer-mail
+    margin: 11px 0
+  .tel
+    display: flex
+    align-items: center
+  .tel-icon
+    position: relative
+    top: 0
+    left: 0
+    margin: 0 13px 0 0
+  p
+    font-size: 14px
+  h3
+    margin: 10px 0 13px
+    font-weight: bold
+    font-size: 24px
+
+.tel-hot
+  margin: 8px 0 0
+  font-size: 14px
+  .tel-icon
+    width: 9px
+    height: 16px
+    margin: 0 10px 0 0
+
+.tel-mobile
+  font-size: 14px
+  .tel-icon
+    margin: 0 16px 0 0
+    width: 13px
+    height: 23px
+
+/*==========  section page-contacts end  ==========*/
 
 
 
