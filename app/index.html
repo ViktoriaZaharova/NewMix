@@ -525,7 +525,7 @@
           <div class="box-text">
             <p>440031, Пензенская область, <br>г. Пенза, ул. Курская, 1а</p>
           </div>
-          <a href="mailto:info@new-mix.ru" class="btn btn-border btn-sm" target="_blank">показать на карте</a>
+          <a href="#" class="btn btn-border btn-sm js-tab-trigger" data-tab="1">показать на карте</a>
         </div>
 
 
@@ -541,7 +541,7 @@
           <div class="box-text">
             <p>440039, Пензенская обл, Городищенский район, с. Нижняя Елюзань, ул. Рабочая, 31</p>
           </div>
-          <a href="#" class="btn btn-border btn-sm" target="_blank">показать на карте</a>
+          <a href="#" class="btn btn-border btn-sm js-tab-trigger" data-tab="2">показать на карте</a>
         </div>
       </div>
 
@@ -561,8 +561,12 @@
             </ul>
           </div>
         </div>
-        <div class="map">
+        <div class="map js-tab-content active" data-tab="1">
           <iframe src="https://yandex.ru/map-widget/v1/-/CCUVmMsAxD" frameborder="1"
+                  allowfullscreen="true" style="position:relative;"></iframe>
+        </div>
+        <div class="map js-tab-content" data-tab="2">
+          <iframe src="https://yandex.by/map-widget/v1/-/CCUV6FgJ8B" frameborder="1"
                   allowfullscreen="true" style="position:relative;"></iframe>
         </div>
       </div>

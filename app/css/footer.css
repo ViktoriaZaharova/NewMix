@@ -4,6 +4,11 @@ footer {
   padding: 61px 0 62px;
   color: #fff; }
 
+.js-tab-content {
+  display: none; }
+  .js-tab-content.active {
+    display: block; }
+
 .footer-contacts {
   margin: 0 0 40px;
   position: relative;

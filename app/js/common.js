@@ -43,5 +43,13 @@ $('.go_to').click(function (e) {
     return false;
 });
 
+$(".js-tab-trigger").click(function (e) {
+    e.preventDefault();
+    var id = $(this).attr('data-tab'),
+        content = $('.js-tab-content[data-tab="'+ id +'"]');
+
+    $('.js-tab-content.active').removeClass('active'); // 3
+    content.addClass('active'); // 4
+});
 
 
